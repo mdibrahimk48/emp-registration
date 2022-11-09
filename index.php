@@ -14,10 +14,16 @@ Author URI: https://www.facebook.com/mdibrahimk48
 add_shortcode('show', 'ik_address');
 
 if(!function_exists('ik_address')){
-    function ik_address(){
-        $output = "Ibrahim Khalil </br>";
-        $output.="01517816814";
-        return $output;
+
+    function ik_address($atts=[], $content=null){
+
+        // $output = "Ibrahim Khalil </br>";
+        // $output.="01517816814";
+
+        $content = do_shortcode($content);
+
+        return $content;
+
     }
 }
 
