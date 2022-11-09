@@ -20,9 +20,20 @@ if(!function_exists('ik_address')){
         // $output = "Ibrahim Khalil </br>";
         // $output.="01517816814";
 
+        //Attribute Pass
+        extract(shortcode_atts(
+
+            array(
+                'style' => 'color:yellow',
+                'class' => "ik_class",
+                'title' => 'WP Dev'
+            ),$atts
+
+        ));
+
         $content = do_shortcode($content);
 
-        return $content;
+        return '<span title="'.$title.'" style="'.$style.'"> '.$content.' </span>';
 
     }
 }
