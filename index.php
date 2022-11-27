@@ -2,7 +2,7 @@
 
 /*
 
-Plugin Name:        Employee Form
+Plugin Name:        Employee Enfo
 Plugin URL:         https://ibrahimkhalil.info/
 Description:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad unde commodi nam assumenda, neque quasi exercitationem dolores quo, asperiores suscipit, aliquam obcaecati explicabo facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ut tempore. Qui itaque fuga assumenda!
 Version:            0.1
