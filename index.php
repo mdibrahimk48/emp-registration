@@ -15,6 +15,24 @@ Text Domain:        ibrahim-plugin
 define(__FILE__,'ABSPATH') or die('You are not human!');
 
 
+class ibrahim_first_plugin{
+
+    function activate(){
+        
+    }
+    function deactivate(){
+        
+    }
+    function uninstall(){
+        
+    }
+}
+
+if(class_exists('ibrahim_first_plugin')){
+    $plugin_newInfo = new ibrahim_first_plugin();
+}
+
+
 
 /* Short Code -------------------------------------------------------------------------
     //ShortCode Start
