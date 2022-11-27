@@ -47,6 +47,7 @@ if(class_exists('ibrahim_first_plugin')){
 }
 
 register_activation_hook(__FILE__, array($plugin_newInfo,'activate'));
+register_deactivation_hook(__FILE__, array($plugin_newInfo,'deactivate'));
 
 
 /* Short Code -------------------------------------------------------------------------
