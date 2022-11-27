@@ -26,6 +26,16 @@ class ibrahim_first_plugin{
     function uninstall(){
         
     }
+
+
+    function ibrahim_emp(){
+        register_post_type('ibrahim_emp',[
+            'public'    => true,
+            'label'     => "Emp Info"
+        ]);
+    }
+
+
 }
 
 if(class_exists('ibrahim_first_plugin')){
