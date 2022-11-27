@@ -17,6 +17,10 @@ define(__FILE__,'ABSPATH') or die('You are not human!');
 
 class ibrahim_first_plugin{
 
+    function __construct(){
+        add_action('init',array($this,'ibrahim_emp'));
+    }
+
     function activate(){
         
     }
