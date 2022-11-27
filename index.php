@@ -2,7 +2,7 @@
 
 /*
 
-Plugin Name:        Employee Enfo
+Plugin Name:        Employee Info
 Plugin URL:         https://ibrahimkhalil.info/
 Description:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad unde commodi nam assumenda, neque quasi exercitationem dolores quo, asperiores suscipit, aliquam obcaecati explicabo facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ut tempore. Qui itaque fuga assumenda!
 Version:            0.1
@@ -22,7 +22,7 @@ class ibrahim_first_plugin{
     }
 
     function activate(){
-        
+       flush_rewrite_rules(); 
     }
     function deactivate(){
         
@@ -43,9 +43,10 @@ class ibrahim_first_plugin{
 }
 
 if(class_exists('ibrahim_first_plugin')){
-    $plugin_newInfo = new ibrahim_first_plugin();
+    $plugin_newInfo = new ibrahim_first_plugin('');
 }
 
+register_activation_hook(__FILE__, array($plugin_newInfo,'activate'));
 
 
 /* Short Code -------------------------------------------------------------------------
