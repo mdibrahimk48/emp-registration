@@ -24,7 +24,6 @@ class ibrahim_first_plugin{
         ]);
     }
 
-
 }
 
 if(class_exists('ibrahim_first_plugin')){
