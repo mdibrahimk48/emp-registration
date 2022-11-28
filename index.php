@@ -19,6 +19,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'class-scripts.php' );
 
 
 // File Directory
+/*
 if(!function_exists('adminscripts')){
     function adminscripts(){
         wp_enqueue_style('ik-css', plugin_dir_path( __FILE__ ) .'css/plugin-emp.css');
@@ -26,13 +27,16 @@ if(!function_exists('adminscripts')){
     }
 }
 add_action('admin_enqueue_scripts', 'adminscripts');
+*/
 
 
 // File Directory in FrontEnd
+/*
 if(!function_exists('mywpstyle')){
     wp_enqueue_style('ik-front-css', plugin_dir_path( __FILE__ ) .'css/plugin-emp.css');
     wp_enqueue_script('ik-front-script', plugin_dir_path( __FILE__ ) .'js/plugin-emp.js');
 }
+*/
 
 
 /* Short Code -------------------------------------------------------------------------
