@@ -15,6 +15,7 @@ Text Domain:        ibrahim-plugin
 define(__FILE__, 'ABSPATH') or die('You are not human!');
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-emp.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'class-scripts.php' );
 
 
 // File Directory
