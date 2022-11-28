@@ -23,7 +23,7 @@ class menuadmin{
        99);
     }
 
-    public function myadminsetting(){
+    public function myadminsetting() {
         require_once( plugin_dir_path( __FILE__ ) . 'inc/admin-setting.php' );
     }
 }
