@@ -6,6 +6,12 @@ class ibrahim_first_plugin{
         add_action('init',array($this,'ibrahim_emp'));
     }
 
+
+    public function myscript(){
+        wp_enqueue_style('myscriptoop', plugin_dir_path(__FILE__). 'css/admin.css');
+    }
+
+
     function activate(){
        flush_rewrite_rules(); 
     }
