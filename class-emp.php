@@ -7,7 +7,7 @@ class ibrahim_first_plugin{
         wp_enqueue_style('myscriptoop', plugin_dir_path(__FILE__). 'css/admin.css');
     }
 
-    function myscriptregister(){
+    public function myscriptregister(){
         add_action('admin_enqueue_scripts', array($this, 'myscript'));
     }
 
