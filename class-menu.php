@@ -16,7 +16,7 @@ class menuadmin{
     }
 
     public function myadminsetting(){
-        echo "Allah Mohan";
+        require_once( plugin_dir_path( __FILE__ ) . 'inc/admin-setting.php' );
     }
 }
 
