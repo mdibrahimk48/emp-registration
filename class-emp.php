@@ -14,9 +14,9 @@ class ibrahim_first_plugin{
 }
 
 if(class_exists('ibrahim_first_plugin')){
-    $plugin_newInfo = new ibrahim_first_plugin('');
+    $plugin_newInfo = new ibrahim_first_plugin();
 
-    $plugin_newInfo->myscriptregister();
+    $plugin_newInfo->myscriptregister(); 
 }
 
 ?>
