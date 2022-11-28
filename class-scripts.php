@@ -22,7 +22,6 @@ class  ibrahim_first_plugin_script{
     function deactivate(){
         flush_rewrite_rules();   
     } 
- 
 
     function ibrahim_emp(){
         register_post_type('ibrahim_emp',[
