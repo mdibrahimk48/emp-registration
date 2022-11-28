@@ -5,6 +5,6 @@ class menu_admin{
 
 }
 
-&menuAdmin = new menuAdmin();
+$menuAdmin = new menuAdmin();
 
 ?>
