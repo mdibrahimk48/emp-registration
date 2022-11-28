@@ -16,8 +16,11 @@ define(__FILE__, 'ABSPATH') or die('You are not human!');
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-emp.php' );
 
+
+// File Directory
 function adminscripts(){
-    wp_enqueue_style('ik', plugin_dir_path( __FILE__ ) .'css/plugin-emp.css');
+    wp_enqueue_style('ik-css', plugin_dir_path( __FILE__ ) .'css/plugin-emp.css');
+    wp_enqueue_script('ik-script', plugin_dir_path( __FILE__ ) .'js/plugin-emp.js');
 }
 add_action('admin_enqueue_scripts', 'adminscripts');
 
