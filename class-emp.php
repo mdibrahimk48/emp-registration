@@ -10,7 +10,7 @@ class ibrahim_first_plugin{
        flush_rewrite_rules(); 
     }
     function deactivate(){
-        
+        flush_rewrite_rules();   
     }
     function uninstall(){
         
