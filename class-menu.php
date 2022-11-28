@@ -6,12 +6,13 @@ class menuadmin{
     public $mainurl;
 
     public function __construct(){
-        $this->$mainurl=plugin_basename(__FILE__);
+        $this->mainurl=plugin_basename(__FILE__);
     }
 
     public function menuregister(){
         add_action('admin_menu', array($this, 'mymenu'));
     }
+    
     public function mymenu(){
         add_menu_page('admin_m',
         'Admin Setting',
