@@ -16,7 +16,7 @@ define(__FILE__, 'ABSPATH') or die('You are not human!');
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-emp.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'class-scripts.php' );
-require_once( plugin_dir_path( __FILE__ ) . 'class-menu.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'class-menu.php ' );
 
 
 // File Directory
