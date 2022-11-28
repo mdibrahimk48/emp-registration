@@ -12,7 +12,7 @@ Text Domain:        ibrahim-plugin
 
 */
 
-define(__FILE__,'ABSPATH') or die('You are not human!');
+define(__FILE__, 'ABSPATH') or die('You are not human!');
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-emp.php' );
 
